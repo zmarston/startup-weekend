@@ -1,0 +1,11 @@
+.header {
+  width: 100vw;
+  height: 70px;
+  background-color: $standard;
+  margin-bottom: 0px;
+}
+@media #{$desktop-break} {
+  .header {
+    display: none !important;
+  }
+}

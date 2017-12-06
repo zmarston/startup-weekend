@@ -1,0 +1,14 @@
+.main-nav {
+  margin-top: 30px;
+  padding-right: $tablet-padding;
+  text-align: right;
+  display: none;
+}
+.main-nav span {
+  margin-left: 15px;
+}
+@media #{$tablet-break} {
+  .main-nav {
+    display: block;
+  }
+}

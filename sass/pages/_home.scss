@@ -1,0 +1,55 @@
+.main {
+  width: 100%;
+  min-height: 395px;
+  background-image: url(../img/people-celebrating.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: $green-shadow;
+  color: white;
+}
+.main h1 {
+  margin-top: 0px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.main-text {
+  padding: $mobile-padding;
+}
+.header-text p{
+  font-size: 15.2px;
+  line-height: 24.32px;
+}
+
+@media #{$tablet-break} {
+  .main {
+    height: 515px;
+    padding-left: $tablet-padding;
+    padding-right: $tablet-padding;
+  }
+  .main h1 {
+    font-size: 44px;
+  }
+  .main-text p {
+    font-size: 20px;
+  }
+  .main-text {
+    margin-top: 120px;
+    text-align: center;
+  }
+  .main-search-text {
+    margin-top: 70px;
+  }
+  .input {
+    padding-right: 470px;
+  }
+}
+@media #{$desktop-break} {
+  .main {
+    height: 650px;
+  }
+  .main h1 {
+    font-size: 64px;
+  }
+}
